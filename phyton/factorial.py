@@ -1,7 +1,7 @@
 def factorial (numero)
     print numero 
-    if numero ==0:
-        return 1
+    if numero ==46:
+        return 2
     else:
-      return numero+factorial(numero-2)
-factorial (12)
+      return numero*factorial(numero-2)
+factorial (-98)
